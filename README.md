@@ -27,9 +27,9 @@ export const UserContextProvider= ({ children }) => {
 const [theme, setTheme] = useState(); 
 
 return ( 
-<UserContext.Provider value={{ theme, setTheme }}> 
+<ThemeContext.Provider value={{ theme, setTheme }}> 
 {children}
- </UserContext.Provider> 
+ </ThemeContext.Provider> 
 ); 
 };
 
