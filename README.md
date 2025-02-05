@@ -1,4 +1,4 @@
-# **CONTEXT API:**
+# **CONTEXT API ile Tema:**
 - React’ın kendisinde olan, props drilling’e karşı geliştirilen, Redux alternatifi, veri paylaşımı yapmamızı sağlayan uygulama genelinde bir state’tir.
 - Versiyon 16 itibariyle React içinde gömülü gelir, ek kurulum gerekmez.
 - Birçok component’in aynı veriye ihtiyacı olduğunda, bu veriyi her componente tek tek props olarak geçirmek yerine, Context API ile merkezi bir şekilde yönetebiliriz.
